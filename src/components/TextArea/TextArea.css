@@ -1,0 +1,51 @@
+.textareaWrapper {
+  width: 100%;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.textareaWrapper label {
+  color: #3F4363;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+}
+
+.textareaWrapper textarea {
+  width: 100%;
+  color: #3F4363;
+  font-size: 18px;
+  font-weight: 400;
+  background: transparent;
+  padding-bottom: 6px;
+  border: none;
+  border-bottom: 1px solid #3F4363;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.textareaWrapper:focus-within label {
+  color: #fff;
+}
+.textareaWrapper:focus-within textarea {
+  color: #fff;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #fff;
+}
+.textareaWrapper:hover label {
+  color: #fff;
+} 
+.textareaWrapper:hover textarea {
+  color: #fff;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #fff;
+}
+
+.error {
+  color: #FF0000;
+  font-size: 14px;
+  font-weight: 400;
+}

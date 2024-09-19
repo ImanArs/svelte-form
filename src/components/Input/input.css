@@ -1,0 +1,48 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inputWrapper label {
+  color: #3F4363;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+}
+
+.inputWrapper input {
+  color: #3F4363;
+  font-size: 18px;
+  font-weight: 400;
+  background: #171929;
+  padding-bottom: 6px;
+  border: none;
+  border-bottom: 1px solid #3F4363;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.inputWrapper:focus-within label {
+  color: #fff;
+}
+.inputWrapper:focus-within input {
+  color: #fff;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #fff;
+}
+.inputWrapper:hover label {
+  color: #fff;
+} 
+.inputWrapper:hover input {
+  color: #fff;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #fff;
+}
+
+.error {
+  color: #FF0000;
+  font-size: 14px;
+  font-weight: 400;
+}
