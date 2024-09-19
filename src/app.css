@@ -9,7 +9,6 @@
 body {
 	min-height: 100vh;
 	font-family: "Roboto", sans-serif;
-	/* background: #0003; */
 	background-attachment: fixed;
 	background-image: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg);
 }

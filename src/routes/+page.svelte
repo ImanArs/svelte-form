@@ -34,7 +34,6 @@
   function handleSubmit() {
     const result = schema.safeParse(formData);
     if (result.success) {
-      console.log('Form submitted:', formData);
 			showModal = true;
 			setTimeout(() => {
 				showModal = false;
@@ -42,7 +41,6 @@
       errors = {};
     } else {
       errors = result.error.flatten().fieldErrors;
-      console.log('Validation errors:', errors);
     }
   }
 
