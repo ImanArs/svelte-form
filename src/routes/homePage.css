@@ -1,0 +1,70 @@
+.homePage h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 27px;
+}
+.formWrapper {
+  background: #171929;
+  padding: 40px 45px;
+  max-width: 390px;
+  margin: 0 auto;
+  border-radius: 27px;
+}
+.formWrapper .info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 10px;
+}
+.formWrapper .info h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.formWrapper .info p {
+  color: #797EA3;
+  font-size: 15px;
+  font-weight: 300;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+.checkbox label {
+  color: #797EA3;
+}
+.checkbox a {
+  color: #fff;
+  text-decoration: underline;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.successModal {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 28px;
+  padding: 40px 0;
+}
