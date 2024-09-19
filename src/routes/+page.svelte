@@ -112,7 +112,7 @@
 						id="terms" 
 						name="terms" 
 					/>
-					<label for="terms">I accept <a href="#lol">Terms and Privacy Policy</a></label>
+					<label for="terms">I accept <a href="https://youtube.com">Terms and Privacy Policy</a></label>
 				</div>
 				{#if errors.terms}
           <p class="error">{errors.terms}</p>
